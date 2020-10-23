@@ -1,0 +1,37 @@
+/*
+*   This is the general CSS file for UTC website.
+*   Code by Malay Bhavsar
+*/
+
+/* Hard coded CSS goes here*/
+* {
+    margin: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+    cursor: default;
+}
+
+/* Responsive css goes here */
+/* For Mobile Screen */
+@media screen and (max-width: 430px) {
+    * {
+        line-height: 23px;
+        letter-spacing: 2px;
+    }
+}
+/* For Tablet Screen */
+@media screen and (min-width: 432px) and (max-width: 768px) {
+    * {
+        line-height: 24px;
+        letter-spacing: 2px;
+    }
+}
+/* For Desktop Screen */
+@media screen and (min-width: 769px) {
+    * {
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+}
